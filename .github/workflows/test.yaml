@@ -1,11 +1,11 @@
 name: test
-on:
- push:
- branches: 
-  - main
+'on':
+  push: null
+  branches:
+    - main
 jobs:
- build:
- runs-on: ubuntu-latest
- steps:
-  - uses: actions/checkout@v2
-  - run: python hello.py
+  build: null
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v2
+    - run: python hello.py
